@@ -1,0 +1,58 @@
+*{
+    background-color:rgb(12, 11, 11);
+    color: rgb(255, 200, 0);
+    font-size: 20px;
+    font-weight:bolder;
+
+}
+
+    
+
+#bn{
+    position:sticky;
+    top:50px;
+    right: 100px;
+    color: rgb(12, 11, 11);
+    background-color:  rgb(255, 200, 0);
+    width: 200px;
+    height: 70px;
+    padding: 4px;
+    gap: 20px;
+    border: none;
+    border-radius:40px;
+}
+#inputs{
+    text-align: center;
+    border: none;
+    position: sticky;
+    top:50px;
+    right: 600px;
+    width: 500px;
+    height: 70px;
+    border-radius: 40px;
+    color:rgb(147, 118, 16);
+    background-color: rgb(233, 255, 161);
+    
+
+}
+#inputs:hover{
+    background-color: rgb(242, 242, 101);
+}
+.d1{
+    margin-top: 100px;
+}
+#btnd{
+    border-radius:40px ;
+    color: rgb(12, 11, 11);
+    background-color:   rgb(233, 255, 161);
+    margin:10px;
+}
+@media(max-width:830px){
+    #bn{
+        position:fixed;
+        top: 150px;
+        right: 300px;
+    }
+    .d1{
+        margin-top: 150px;
+}}
